@@ -7,7 +7,6 @@ wn.bgcolor("black")
 raph = turtle.Turtle()
 raph.color("red")
 raph.shape("turtle")
-raph.speed(7)
 raph.penup()
 
 # DRAW turtle shell
@@ -141,16 +140,28 @@ def draw_N(color):
     raph.forward(20)
     raph.right(70)
     raph.forward(110)
-    raph.left(70)
-    raph.forward(20)
-    raph.left(90)
-    raph.forward(110)
+    raph.left(160)
+    raph.forward(100)
     raph.right(90)
     raph.forward(20)
     raph.right(90)
     raph.forward(120)
-
-
-
+    raph.right(90)
+    raph.forward(30)
+    raph.right(70)
+    raph.forward(80)
+    raph.left(160)
+    raph.forward(80)
+    raph.right(90)
+    raph.forward(20)
+    
+  
 draw_N("purple")
+raph.penup()
+raph.right(190)
+raph.goto(200,-180)
+
+raph.pendown()
+raph.right(180)
+draw_T("red")
 wn.exitonclick()

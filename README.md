@@ -1,1 +1,2 @@
 # Turtles-in-a-half-shell
+This project is the turtle drawing a turtle shell with a crack in the middle(sort-of) and drawing the abriviation for teenage munant ninja turtles with the color of the turtle's masks: T is blue for Leonardo, M is orange for Mikey, N is purple for Donetello, and the final T is red for Raphel. 
